@@ -5,8 +5,8 @@ import RemoteControl from "./components/RemoteControl/RemoteControl";
 export default function App() {
   return (
     <div className="App">
-      <Building />
       <RemoteControl />
+      <Building />
     </div>
   );
 }

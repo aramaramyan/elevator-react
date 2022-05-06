@@ -1,0 +1,6 @@
+.buttons_wrapper {
+    width: 103.5px;
+    height: 293.5px;
+    background: url("./../../img/elevatorButtons.png") 50% 50%/contain no-repeat;
+    border-radius: 7px;
+}
