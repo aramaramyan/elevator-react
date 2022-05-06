@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState, useCallback } from "react";
 import Building from "./components/Building/Building";
 import RemoteControl from "./components/RemoteControl/RemoteControl";
 import './App.css';
@@ -10,14 +10,7 @@ const defaultState = {
 export default function App() {
   const [state, setState] = useState(defaultState);
 
-  function toggleFloor(id) {
-    setState(prev => {
-      return {
-        ...prev,
-        floor: id,
-      };
-    });
-  }
+  const toggleFloor = useCallback(id => setState(prev => ({...prev, floor: id})), []);
 
   return (
     <div className="App">
