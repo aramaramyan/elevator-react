@@ -21,11 +21,59 @@
 
 .elevator {
     position: absolute;
-    bottom: 90px;
     left: 16px;
     width: 680px;
     height: 40px;
     background-color: gold;
     filter: blur(6px);
     z-index: -1;
+    transition: 4s;
+}
+
+.fl0 {
+    bottom: 90px;
+}
+
+.fl1 {
+    bottom: 143px;
+}
+
+.fl2 {
+    bottom: 185px;
+}
+
+.fl3 {
+    bottom: 226px;
+}
+
+.fl4 {
+    bottom: 268px;
+}
+
+.fl5 {
+    bottom: 310px;
+}
+
+.fl6 {
+    bottom: 352px;
+}
+
+.fl7 {
+    bottom: 394px;
+}
+
+.fl8 {
+    bottom: 435px;
+}
+
+.fl9 {
+    bottom: 476px;
+}
+
+.fl10 {
+    bottom: 517px;
+}
+
+.fl11 {
+    bottom: 559px;
 }
